@@ -1,26 +1,24 @@
+.logo1 {
+  justify-self: right;
+  grid-area: l1;
+  border-radius: 50%;
+  width: $sizes-logo * 2;
+  height: $sizes-logo * 2;
+}
 
-    .logo1{
-        justify-self: right;
-        grid-area: l1;
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
-        }
-        
-        .titulo{
-        grid-area: t;
-        font-size: 80px;
-        font-style: italic;
-        color: rgb(255, 0, 242);
-        background-color: white;
-        border-style: solid;
-        }
-        
-        .logo2{
-        justify-self: left;
-        grid-area: l2;
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
-        }
-        
+.titulo {
+  grid-area: t;
+  font-size: 80px;
+  font-style: italic;
+  color: rgb(255, 0, 242);
+  background-color: white;
+  border-style: solid;
+}
+
+.logo2 {
+  justify-self: left;
+  grid-area: l2;
+  border-radius: 50%;
+  width: $sizes-logo * 2;
+  height: $sizes-logo * 2;
+}
