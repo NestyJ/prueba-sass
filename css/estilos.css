@@ -1,3 +1,23 @@
+.parrafo1 {
+  background-color: #00d9ff;
+  color: white;
+}
+
+.box-small {
+  height: 300px;
+  width: 300px;
+}
+
+.box-medium {
+  height: 200px;
+  width: 200px;
+}
+
+.box-big {
+  height: 500px;
+  width: 500px;
+}
+
 .grid1 {
   min-height: 828px;
   grid-template-columns: 15% 20% 30% 20% 15%;
@@ -43,7 +63,7 @@
   height: 120px;
 }
 
-.imagen1 {
+.paneles-1 {
   grid-area: i1;
   border-radius: 15%;
   width: 380px;
@@ -53,7 +73,7 @@
   box-shadow: 0px 0px 50px 30px #ffffff;
 }
 
-.triangulo1 {
+.paneles-2 {
   grid-area: t1;
   border-radius: 25%;
   width: 250px;
@@ -63,7 +83,7 @@
   box-shadow: 0px 0px 50px 30px #ffffff;
 }
 
-.triangulo2 {
+.paneles-3 {
   grid-area: t2;
   border-radius: 25%;
   width: 250px;
@@ -73,7 +93,7 @@
   box-shadow: 0px 0px 50px 30px #ffffff;
 }
 
-.panel-izquierdo {
+.paneles-4 {
   grid-area: p-i;
   border-radius: 25%;
   width: 200px;
@@ -83,7 +103,7 @@
   box-shadow: 0px 0px 50px 30px #ffffff;
 }
 
-.panel-derecho {
+.paneles-5 {
   grid-area: p-d;
   border-radius: 25%;
   width: 200px;
@@ -165,13 +185,7 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
-  .body {
-    background-color: #ff00f2;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .body {
+  body .body {
     background-color: #ff00f2;
   }
 }

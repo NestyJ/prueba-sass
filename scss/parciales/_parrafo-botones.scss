@@ -1,35 +1,33 @@
+.parrafo1 {
+  text-align: center;
+  grid-area: p1;
+  background-color: rgb(255, 0, 242);
+  opacity: 70%;
+  font-style: italic;
+  color: white;
+}
 
-    .parrafo1{
-        text-align: center;
-        grid-area: p1;
-        background-color: rgb(255, 0, 242);
-        opacity: 70%;
-        font-style: italic;
-        color: white
-        }
-        
-        .parrafo2{
-        text-align: center;
-        grid-area: p2;
-        background-color: rgb(0, 217, 255);
-        opacity: 70%;
-        font-style: italic;
-        color: white
-        }
-        
-        .boton{
-        grid-area: b;
-        font-size: 20px;
-        font-style: italic;
-        color: white;
-        border-style: solid;
-        border-color: black;
-        font-weight: bold;
-        background-color:purple;
-        }
-          
-        .boton:hover{
-        background-color:blue;
-        transition:background-color 4s linear 0s;
-        }
-        
+.parrafo2 {
+  text-align: center;
+  grid-area: p2;
+  background-color: rgb(0, 217, 255);
+  opacity: 70%;
+  font-style: italic;
+  color: white;
+}
+
+.boton {
+  grid-area: b;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  background-color: purple;
+}
+
+.boton:hover {
+  background-color: blue;
+  transition: background-color 4s linear 0s;
+}

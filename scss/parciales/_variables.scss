@@ -1,2 +1,39 @@
-$color-imagenes: #ffffff ;
-$sizes-logo: 60px
+$sizesLogo: 60px;
+$colorImagenes: #ffffff;
+$vista: desktop;
+
+$estilos: (
+bc: #00d9ff,
+color: white,
+centro: center,
+fstyle: italic,
+opacity: 70%,
+g-a: p2,
+);
+
+.parrafo1 {
+background-color: map-get($estilos , bc );
+text-align: map-get($estilos , center );
+font-style: map-get($estilos , italic );
+opacity: map-get($estilos , 70% );
+color: map-get($estilos , color );
+grid-area: map-get($estilos , p2 );
+
+}
+
+@mixin sizes ($width, $height) {
+	height: $height;
+	width: $width;
+}
+
+.box-small {
+	@include sizes (300px, 300px)
+}
+
+.box-medium{
+	@include sizes (200px, 200px)
+}
+
+.box-big {
+	@include sizes (500px, 500px)
+}
